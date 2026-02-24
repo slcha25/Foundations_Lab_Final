@@ -2,18 +2,18 @@
 
 # Night 1 Cyber Tutor
 
-**Author:** [Sok Leng Chan]  
-**Institution:** [KnowledgeHouse]  
+**Author:** Sok Leng Chan  
+**Institution:** KnowledgeHouse 
 **Course:** Cybersecurity Foundations  
 **Date:** February 23, 2026  
 
 ---
 
 ## Professional Profile
-[Entry-level cybersecurity practitioner]
+Entry-level cybersecurity practitioner
 
 ## Cybersecurity Focus: The 2026 Ecosystem
-[1. Network Security: The Enforcement Layer
+1. Network Security: The Enforcement Layer
 In 2026, network security is defined by Zero Trust Architecture (ZTA). It isn't just about firewalls; it’s about micro-segmentation.
 
 The Role: Ensuring that data moving between points is encrypted and that only authenticated devices can "talk" to each other.
@@ -32,7 +32,7 @@ GRC is the "Brain." It dictates why we have certain network rules or cloud permi
 
 The Role: Translating legal requirements (like GDPR or HIPAA) into technical controls. It ensures the engineers aren't just "building things" but are building things that are legally and ethically defensible.
 
-The Metric: Compliance Score (%) and Residual Risk levels after security controls are applied.]
+The Metric: Compliance Score (%) and Residual Risk levels after security controls are applied.
 
 ## Technical Workbench
 * **Editor:** VS Code [Version 1.109.5]
