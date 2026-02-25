@@ -4,6 +4,7 @@
 
 **Author:** Sok Leng Chan  
 **Institution:** KnowledgeHouse 
+
 **Course:** Cybersecurity Foundations  
 **Date:** February 23, 2026  
 
@@ -68,6 +69,8 @@ All three domain aligns with today's material. In network, we need to CIA triad 
 * **VCS:** Git/GitHub [Version 2.53.0.windows.1]
 
 ## References
--National Institute of Standards and Technology. (2024). The NIST Cybersecurity Framework (CSF) 2.0 (NIST Special Publication 1285). U.S. Department of Commerce. https://doi.org/10.6028/NIST.SP.1285
--Fortinet.(2023). What Is Authentication, Authorization, And Accounting (AAA) Security? Fortinet. https://www.fortinet.com/resources/cyberglossary/aaa-security
--Kosutic, D. (2024). What is ISO 27001? Advisera. https://advisera.com/27001academy/what-is-iso-27001/
+National Institute of Standards and Technology. (2024). The NIST Cybersecurity Framework (CSF) 2.0 (NIST Special Publication 1285). U.S. Department of Commerce. https://doi.org/10.6028/NIST.SP.1285
+
+Fortinet.(2023). What Is Authentication, Authorization, And Accounting (AAA) Security? Fortinet. https://www.fortinet.com/resources/cyberglossary/aaa-security
+
+Kosutic, D. (2024). What is ISO 27001? Advisera. https://advisera.com/27001academy/what-is-iso-27001/
