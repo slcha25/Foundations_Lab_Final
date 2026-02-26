@@ -113,3 +113,14 @@ Write about:
 * Kosutic, D. (2024). What is ISO 27001? Advisera. https://advisera.com/27001academy/what-is-iso-27001/
 
 * RedHat. (2019). What is a virtual machine? Redhat.com. https://www.redhat.com/en/topics/virtualization/what-is-a-virtual-machine
+
+# Day 4 Security Philosophy
+**Date:** February 26, 2026 
+
+1. explain how your lab environment connects to the CIA Triad: Confidentiality,Integrity,Availability
+   
+   When I am doing the lab project since my laptop doesn't have enough RAM to run Virtual machines. I use cloud shell to run VM in order to complete my project. When I connected to github account, I inputted my github password and can't get access to github to clone my repo due to confidentiality. GitHub would like to verify the user before allowing to gain access to repo. Then, I set up my Personal Access Token (PAT) instead of main password. This step is github in order to protect the host machine's private files and not access to guest Linux OS, so they denied to use the normal password, they need users to get PAT in order verfity their identity. In addtion, after i updated my bash aduit script and push to github. All steps is doing in VM (Cloud shell), it doesn't affect my scripts or documents in physical hardware (my Laptop). It reveals isolated VM can work their own specific task without affecting the main device.For integrity, after I completed all installatioin for Cisco Packert tracker and working on audit script. All documents pushed to github account. I can get the whole repo from github account to my local machine. That's integrity after I verified my username and password and i can get access to clone the repo. Finally, Availabity - my laptop lacked RAM to run VM, cloud resources provided temperary Cloud VM enviorment to complete my project regardless of my physical devices' limitations. 
+
+## References
+* National Institute of Standards and Technology. (2024). The NIST Cybersecurity Framework (CSF) 2.0 (NIST Special Publication 1285). U.S. Department of Commerce. https://doi.org/10.6028/NIST.SP.1285
+* Managing your personal access tokens. (n.d.). GitHub Docs. https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens
