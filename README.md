@@ -64,6 +64,43 @@ Which cybersecurity domain (Network, GRC, or Cloud) aligns most with today’s m
 
 All three domain aligns with today's material. In network, we need to CIA triad and AAA framwork to set up our network security and prevent the attrack and provide the audit log to trace unauthorized users' activies. In GRC, governance is a rule book to guide the security professionals and company to follow the rule which is based on CIA traid and AAA framwork as well. GRC is able to find out the risk of attack and prevent the risk of security based on CIA traid and AAA framework. Finally, Cloud security is also following CIA triad and AAA framework to defend the outlier attack and set up their own security system. 
 
+# Day 3 Lab Infrastructure & Virtualization Setup
+**Date:** February 25, 2026 
+
+1. What a Hypervisor is:
+
+   Hybervisor is a intermedia layer to run virtual machine. It is a software to expand the usage of physical device and allocate the resource of physical hardware to achieve the maximum usage. 
+
+2. What a Virtual Machine is;
+
+   It is a isloated computing environment with its own CPU, memory, network interface and storage, created by a pool of hardware. 
+
+3. Why isolation matters in cybersecurity;
+   
+   It is useful feature to isloate the matter in cybersecurity. VM is a isloated environment which still run as a phycial device; however, it is completely isolated the environment. It helps cybersecurity to do testing or debugging a new program since it doesn't affect physcial device even though the testing or program is failed.
+
+4. Including a paragraph connecting virtualization to:
+
+   • Confidentiality • Integrity • Availability
+
+   Virtualization is a powerful layer to make a complicate mechanisms to protec data and maintain seerivce because it seperates the physcial hardward. For confidnetiality, it ensures that sensitive informaiton is not accessed by unauthorized parties since virtualization is isolated, so even though VM is compromised, another VM will not be affected since they are isolated each other. For integrity, the snapshot of VM can be recovery after VM failed. For availability, virtualized environment is seperated from physical device, so even though VM is down, another VM still can run and physical hardware won't be affected. 
+
+5. Reflection (5–7 sentences)
+
+Write about:
+
+• Why is isolation important when testing software or malware?
+
+   Isolation is imporatant when testing software or malware since testing is running in VM, it is completely isolating with physical hardware, so if the malware/software was running failure, it may corrupt the system. If we test software/malware in VM, even though they are running failed, it still doesn't affect physical hardware and we can restart to open new VM or restart the VM to test again. 
+
+• How does virtualization support secure experimentation?
+
+   Virtualization supports secure experimentation because when we test a new program/malware, we can create different VM to run the program. Even though a VM was hacked, attacker can't get into another VM to access the experiment results; meanwhile, a VM failed due to testing, another VM won't be affected. Virtualiation can secure the testing experiments because VM enviroment is isloated with each other. 
+
+• Which cybersecurity domain (Network, GRC, Cloud) does today’s material align with most?
+
+  I think three domains to align with today's material since no matter which domain can simulate VM enviroment to do the security testing or testing new malware. VM enviroment can expand the capacity of physcial hardware and helps the system to allocate the resource and be using maximum.  
+
 ## Technical Workbench
 * **Editor:** VS Code [Version 1.109.5]
 * **VCS:** Git/GitHub [Version 2.53.0.windows.1]
@@ -74,3 +111,5 @@ All three domain aligns with today's material. In network, we need to CIA triad 
 * Fortinet.(2023). What Is Authentication, Authorization, And Accounting (AAA) Security? Fortinet. https://www.fortinet.com/resources/cyberglossary/aaa-security
 
 * Kosutic, D. (2024). What is ISO 27001? Advisera. https://advisera.com/27001academy/what-is-iso-27001/
+
+* RedHat. (2019). What is a virtual machine? Redhat.com. https://www.redhat.com/en/topics/virtualization/what-is-a-virtual-machine
